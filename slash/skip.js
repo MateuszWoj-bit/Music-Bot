@@ -1,4 +1,5 @@
 const { SlashCommandBuilder } = require("@discordjs/builders");
+const { EmbedBuilder } = require("discord.js");
 
 module.exports = {
   data: new SlashCommandBuilder()
@@ -14,7 +15,7 @@ module.exports = {
     queue.skip();
      await interaction.editReply({
        embeds: [
-         new MessageEmbed()
+         new EmbedBuilder()
            .setDescription(`${currentSong.title} has been skipped!`)
            .setThumbnail(currentSong.thumbnail),
        ],

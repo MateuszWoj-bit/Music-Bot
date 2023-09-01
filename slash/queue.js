@@ -34,8 +34,7 @@ module.exports = {
       })
       .join("\n");
 
-    const currentSong = queue.currentSong;
-    console.log(currentSong)
+    const currentSong = queue.currentSong; 
 
     await interaction.editReply({
       embeds: [
