@@ -1,4 +1,4 @@
-# Music-Bot
+🎵 # Music-Bot 🔊
 Wymagania: 
 Token discord
 Guild ID - kanału
